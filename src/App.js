@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import Login from './components/LoginPage';
-function App() {
+import NewUser from './components/NewUserPage';
+
+const App = () => {
   return (
-    <div className="App">
-      <Login />
-    </div>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/NewUserPage" element={<NewUser />} />
+    </Routes>
   );
-}
+};
 
 export default App;
