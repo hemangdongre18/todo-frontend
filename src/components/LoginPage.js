@@ -15,6 +15,10 @@ const Login = () => {
           <input type="password" id="password" name="password" required />
         </div>
         <button type="submit">Login</button>
+        <h8 >or</h8>
+        <div className="create-a-new-user-group">
+        <a href='www.google.com' title='newUser'>Create a new User</a>
+        </div>
       </form>
     </div>
   );
