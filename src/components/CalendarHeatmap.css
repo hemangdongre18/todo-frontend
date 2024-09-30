@@ -1,0 +1,50 @@
+.react-calendar-heatmap .react-calendar-heatmap__cell {
+    width: 10px;
+    height: 10px;
+    margin: 2px;   
+    border-radius: 2px; 
+  }
+  
+  /* Hide weekday labels (since LeetCode only labels Sundays) */
+  .react-calendar-heatmap .react-calendar-heatmap__weekday-labels {
+    display: none;  /* Remove weekday labels */
+  }
+  
+  /* Color scale similar to LeetCode's activity grid */
+  .react-calendar-heatmap .color-empty {
+    fill: #ebedf0;  /* Gray for no activity */
+  }
+  
+  .react-calendar-heatmap .color-scale-1 {
+    fill: #c6e48b;  /* Light green for low activity */
+  }
+  
+  .react-calendar-heatmap .color-scale-2 {
+    fill: #7bc96f;  /* Medium green */
+  }
+  
+  .react-calendar-heatmap .color-scale-3 {
+    fill: #239a3b;  /* Dark green */
+  }
+  
+  .react-calendar-heatmap .color-scale-4 {
+    fill: #196127;  /* Darkest green */
+  }
+  
+  /* Align the calendar centrally with limited width */
+  .calendar-design-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px; /* Narrower width for vertical design */
+    margin: 0 auto;
+  }
+  
+  /* Optional: Centered title above the calendar */
+  .calendar-design-container h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,81 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: left;
+    color: #333;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .dashboard-header {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .project-title {
+    text-align: center;
+    padding-left: 500px;
+  }
+  
+  .profile {
+    padding-left: 550px;
+  }
+  
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .calendar-container {
+    margin-top: 20px;
+    width: 90%;
+  }
+  
+  .calendar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 600px; /* Increase width to adjust calendar size */
+    height: 300px; /* Make it taller */
+    margin-top: 50px;
+  }
+  
+  .table-container {
+    margin-top: 30px;
+  }
+  
+  .name-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .name-table th, .name-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .name-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .name-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .name-table tr:hover {
+    background-color: #ddd;
+  }
+  
